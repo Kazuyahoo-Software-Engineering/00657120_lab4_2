@@ -25,8 +25,7 @@ script:
 
 deploy:
   provider: heroku
-  api_key:
-    secure: $HEROKU_API_KEY
+  api_key: $HEROKU_API_KEY
   app: lab4hahaha
   on:
     repo: kazuyahooo/00657120_lab4_2
